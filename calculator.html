@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <title>Second Calculator</title>
+  </head>
+  <body>
+    <div class="container   ">
+    <input type="textfield" id="result" />
+    <br />
+    <br />
+    <button class="button" value="1" onClick="onButtonClick(this)">1</button>
+    <button class="button" value="2" onClick="onButtonClick(this)">2</button>
+    <button class="button" value="3" onClick="onButtonClick(this)">3</button>
+    <br />
+    <button class="button" value="4" onClick="onButtonClick(this)">4</button>
+    <button class="button" value="5" onClick="onButtonClick(this)">5</button>
+    <button class="button" value="6" onClick="onButtonClick(this)">6</button>
+    <br />
+    <button class="button" value="7" onClick="onButtonClick(this)">7</button>
+    <button class="button" value="8" onClick="onButtonClick(this)">8</button>
+    <button class="button" value="9" onClick="onButtonClick(this)">9</button>
+    <br />
+    <button class="button" value="0" onClick="onButtonClick(this)">0</button>
+    <br>
+    <button class="buttonvol2" value="+" onClick="onOperatorButtonClick(this)">+</button>
+    <button class="buttonvol2" value="-" onClick="onOperatorButtonClick(this)">-</button>
+    <button class="buttonvol2 " value="*" onClick="onOperatorButtonClick(this)">x</button>
+    <button class="buttonvol2 " value="/" onClick="onOperatorButtonClick(this)">÷</button>
+    <br />
+    <!-- <button class="buttonvol2 " value="." onClick="onOperatorButtonClick(this)">.</button> -->
+    <br />
+    <button class="span-two buttonvol2" type="reset" onClick="onOperatorButtonClick(this)">
+      CLEAR
+    </button>
+    <button class="span-two buttonvol2" id="equal" onClick="calculate()">CALCULATE</button>
+    <!-- <button class="buttonvol2 ">BACKSPACE</button> -->
+    <br />
+</div>
+  </body>
+</html>
+
+
